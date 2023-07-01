@@ -78,7 +78,8 @@ select {
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 html {
-    background-color: lightcyan;
+    background-color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 body {
     width: 85%;
@@ -86,12 +87,16 @@ body {
     background-color: #FFF;
     padding-top: 25px;
 }
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
 header {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 100px;
-    background-color: #d0e6d1;
+    color: #2270ae;
 }
 
 .logo {
@@ -102,39 +107,76 @@ header {
 .menu {
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 65%;
     margin-top: 3px;
 }
 
 .menu_items {
     height: 94px;
     width: 20%;
-    background-color: rgba(106, 106, 106, .5);
-    border: 2px solid #d0e6d1;
-    color: #ffffff;
     text-align: center;
     line-height: 90px;
     font-size: 20px;
 }
 
+.menu_items:hover {
+    color: #ffffff;
+    background-color: #2270ae;
+}
+
 .contact {
     display: flex;
-    width: 20%;
+    width: 15%;
     height: 100%;
+    flex-direction: column;
+    text-align: right;
+    padding: 20px 10px;
 }
 
-.phones {
+.contact a {
+    color: #2270ae;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 58%;
-    padding: 45px 2px 2px 20px;
-    color: #23415d;
-    font-weight: 800;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 90px;
+    color: #FFFFFF;
+    background-color: #2270ae;
 }
 
-.logo-ent {
-    margin: 3px;
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rebeccapurple;
+    text-decoration: underline;
+}
+
+.branches {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.branch {
 
 }
+
+.develop {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    border-top: 1px solid white;
+    padding: 10px 0;
+}
+
 
