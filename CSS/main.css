@@ -131,6 +131,7 @@ header {
     flex-direction: column;
     text-align: right;
     padding: 20px 10px;
+    font-size: 0.8vw;
 }
 
 .contact a {
