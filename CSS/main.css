@@ -112,11 +112,14 @@ header {
 }
 
 .menu_items {
+    display: block;
     height: 94px;
     width: 20%;
     text-align: center;
     line-height: 90px;
     font-size: 20px;
+    color: #2270ae;
+    text-decoration: none;
 }
 
 .menu_items:hover {
@@ -178,6 +181,40 @@ footer a:hover {
     width: 95%;
     border-top: 1px solid white;
     padding: 10px 0;
+}
+
+.first_about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.first_about img {
+    margin: auto;
+    padding-top: 30px;
+}
+
+.second_about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.second_about h3 {
+    text-decoration: underline;
+    font-weight: 800;
+    text-indent: 80px;
+}
+
+.third_about {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.third_about img {
+    margin: auto;
+    padding-top: 30px;
 }
 
 
