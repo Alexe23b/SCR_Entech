@@ -143,7 +143,7 @@ header {
 }
 
 footer {
-    margin-top: 60px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,7 +167,7 @@ footer a:hover {
 .branches {
     margin: 10px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -275,4 +275,43 @@ footer a:hover {
 .contact_item {
     width: 500px;
     text-align: center;
+}
+
+.first_comp {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.first_comp img {
+    margin: auto;
+    padding-top: 30px;
+}
+
+.second_comp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.second_comp h3 {
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.series_comp {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.series_comp img {
+    margin: auto;
+}
+
+.third_comp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
