@@ -197,9 +197,10 @@ footer a:hover {
 }
 
 .second_about {
+    margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .second_about h3 {
     text-decoration: underline;
@@ -238,6 +239,10 @@ footer a:hover {
     justify-content: space-between;
 }
 
+.contact_data {
+    width: 45%;
+    padding-left: 50px;
+}
 .contact_data a {
     text-decoration: none;
     color: #2270ae;
