@@ -255,41 +255,56 @@ footer a:hover {
     text-decoration: none;
 }
 
-.first_comp {
+.comp_wrapper{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    margin: 50px 0 50px 0;
-}
-.first_comp img {
-    margin: auto;
-    padding-top: 30px;
 }
 
-.second_comp {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-.second_comp h3 {
+.comp_wrapper h3 {
     text-decoration: underline;
     font-weight: 800;
 }
 
-.series_comp {
+.comp_name {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    margin: 30px 0 50px 0;
 }
 
-.series_comp img {
+.comp_name img {
+    margin: auto;
+    padding-top: 20px;
+}
+
+.comp_row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.comp_row h2 {
+    margin-bottom: 10px;
+}
+
+.comp_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.comp_items img {
     margin: auto;
 }
 
-.third_comp {
+.comp_item {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    border: cornflowerblue solid 1px;
+    width: 33%;
 }
