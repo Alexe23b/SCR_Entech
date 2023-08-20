@@ -108,7 +108,7 @@ header {
 .menu {
     display: flex;
     flex-direction: row;
-    width: 65%;
+    width: 62%;
     margin-top: 3px;
     justify-content: space-around;
 }
@@ -131,7 +131,7 @@ header {
 
 .contact {
     display: flex;
-    width: 17%;
+    width: 18%;
     height: 100%;
     flex-direction: column;
     text-align: right;
