@@ -108,7 +108,7 @@ header {
 .menu {
     display: flex;
     flex-direction: row;
-    width: 62%;
+    width: 60%;
     margin-top: 3px;
     justify-content: space-around;
 }
@@ -116,7 +116,7 @@ header {
 .menu_items {
     display: block;
     height: 94px;
-    width: 19%;
+    width: 20%;
     text-align: center;
     line-height: 90px;
     font-size: 1.2vw;
@@ -131,7 +131,7 @@ header {
 
 .contact {
     display: flex;
-    width: 18%;
+    width: 20%;
     height: 100%;
     flex-direction: column;
     text-align: right;
