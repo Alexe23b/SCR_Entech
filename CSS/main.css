@@ -111,6 +111,7 @@ header {
     width: 62%;
     margin-top: 3px;
     justify-content: space-around;
+    background-color: pink;
 }
 
 .menu_items {
