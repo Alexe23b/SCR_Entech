@@ -111,7 +111,6 @@ header {
     width: 63%;
     margin-top: 3px;
     justify-content: space-around;
-    background-color: pink;
 }
 
 .menu_items {
@@ -138,7 +137,6 @@ header {
     text-align: right;
     padding: 20px 10px;
     font-size: 1vw;
-    background-color: chartreuse;
 }
 
 .contact a {
